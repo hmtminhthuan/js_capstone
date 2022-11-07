@@ -5,7 +5,7 @@ BÁO CÁO CAPSTONE PROJECT
 - Nhóm: Huỳnh Minh Thuận + Vũ Minh Trí
 - Link GitHub: https://github.com/hmtminhthuan/js_capstone
 - Link Deploy: https://jscapstone.vercel.app
-- Link YouTube: 
+- Link YouTube: https://www.youtube.com/watch?v=Fr7i7kZt_bI
 ------------------------
 - Ngôn ngữ và công cụ sử dụng: HTML5/ CSS3/ SCSS/ Javascript/ Bootstrap...
 - Các webpages trong website:
