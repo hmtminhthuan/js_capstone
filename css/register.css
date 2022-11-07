@@ -48,6 +48,7 @@
   line-height: 36px;
   color: #000000;
 }
+
 #register_info .input_container span {
   font-style: normal;
   font-weight: 400;
@@ -65,9 +66,11 @@
 .gender ul li {
   list-style: none;
 }
+
 .gender ul li input {
   accent-color: rgb(174, 24, 226);
 }
+
 .gender span {
   font-style: normal;
   font-weight: 400;
@@ -75,6 +78,7 @@
   line-height: 36px;
   color: #000000;
 }
+
 .gender label {
   font-style: normal;
   font-weight: 400;
@@ -84,7 +88,7 @@
 }
 
 #register_submit {
-  background: #AE18E2;
+  background-color: #AE18E2;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -92,6 +96,17 @@
   border: none;
   color: #FFFCFC;
   padding: 0px 80px;
+  transition: background-color 0.3s;
+  transition: transform 0.3s;
+}
+
+#register_submit:hover {
+  color: black;
+  font-weight: 600;
+  transform: scale(1.1);
+  background-color: #E1B067;
+  transition: background-color 0.3s;
+  transition: transform 0.3s;
 }
 
 .error_msg {
@@ -101,26 +116,33 @@
 header .nav-bot .nav-item {
   margin-left: 20px;
 }
+
 header .nav-bot .navbar-brand {
   border-bottom: 2px solid black;
 }
+
 header .nav_top {
   background-color: #000000;
 }
+
 header .nav_top a {
   text-decoration: none;
   color: white;
   margin-left: 25px;
 }
+
 header .nav_top a:hover {
   color: goldenrod;
 }
+
 header .nav_top .container {
   width: 95%;
 }
+
 header .nav_top img#logo {
   width: 100px;
 }
+
 header #user_quantity {
   font-size: 20px;
   color: white;
@@ -129,27 +151,34 @@ header #user_quantity {
 footer {
   margin-top: 100px;
 }
+
 footer #footer_end {
   background-color: rgba(181, 180, 180, 0.218);
 }
+
 footer ul {
   margin-bottom: 40px;
   border-left: 1px solid rgba(156, 156, 156, 0.186);
 }
+
 footer ul .title {
   font-weight: 900;
   font-size: 22px;
 }
+
 footer ul li {
   list-style: none;
 }
+
 footer ul li a {
   text-decoration: none;
   color: black;
 }
+
 footer ul li a:hover {
   color: #D017EE;
 }
+
 footer ul .specialLink {
   color: rgb(215, 17, 17);
 }
@@ -158,6 +187,7 @@ footer ul .specialLink {
   footer {
     text-align: center;
   }
+
   footer ul {
     border-left: none;
   }

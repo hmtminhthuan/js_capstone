@@ -24,6 +24,13 @@ a:hover {
   color: #F8B653 !important;
 }
 
+a.buynow:hover {
+  color: #fff !important;
+  transform: scale(1.05);
+  font-weight: 900;
+  background: linear-gradient(270deg, rgba(62, 32, 248, 0.9) 5.14%, #D017EE 89.71%) !important;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;

@@ -78,7 +78,7 @@ function renderAllProductSameCategory(productCategories) {
                             <p id="product_relate_shortDescription">${productList[i].shortDescription}</p>
                           </div>
                           <div class="btn_relate d-flex">
-                          <a class="w-50" id="buynow" href="./detail.html?productid=${productList[i].id}">Buy now</a>
+                          <a class="detail_buynow w-50" id="buynow" href="./detail.html?productid=${productList[i].id}">Buy now</a>
                             <button class="w-50 text-center" id="product_relate_price">
                             ${productList[i].price}$
                             </button>

@@ -50,7 +50,7 @@ function renderCarousel(arrProduct) {
               <div class="col-lg-4 col-md-4 col-6">
                 <h3 id="banner-name1">${value.name}</h3>
                 <p id="banner-description1">${value.description}</p>
-                <a href="./detail.html?productid=${value.id}" class="btn-header">Buy now</a>
+                <a href="./detail.html?productid=${value.id}" class="btn-header buynow">Buy now</a>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ function renderCarousel(arrProduct) {
               <div class="col-lg-4 col-md-4 col-6">
                 <h3 id="banner-name1">${value.name}</h3>
                 <p id="banner-description1">${value.description}</p>
-                <a href="./detail.html?productid=${value.id}" class="btn-header">Buy now</a>
+                <a href="./detail.html?productid=${value.id}" class="btn-header buynow">Buy now</a>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ function renderProductFeature(arrProduct) {
             </div>
           </div>
           <div class="card-body text-center">
-            <a href="./detail.html?productid=${value.id}">Buy Now</a>
+            <a href="./detail.html?productid=${value.id}" class="buynow">Buy Now</a>
             <h5>${value.price}$</h5>
           </div>
         </div>
